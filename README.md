@@ -1,11 +1,11 @@
 # ANN_Assignment
 An implementation of artificial neural networks to perform the following tasks: Face Recognition, Pose Recognition and Sunglasses Recognition
 
-Preprocessing steps:
+#Preprocessing steps:
 
 For each training and testing list, the corresponding image files were read using a pgm parser (for the P5 format) written in C++ and the pixel values of the images were stored in text files (sorted according to the lists). Each line of a text file contains the pixel values of one image, preceded by a ‘1’. For each of the tasks, namely face recognition, pose recognition and sunglasses recognition, output files were generated for the images in the corresponding lists. Each line of the output text files contains the class of the image in the 1-of-n format. The parser can be found in the file named “parser.cpp”
 
-Network Structure and Parameters:
+#Network Structure and Parameters:
 
 Following is a detailed description of the structure of the network used for each task:
 
@@ -14,7 +14,7 @@ Following is a detailed description of the structure of the network used for eac
 3. Sunglasses Recognizer:  The network used for this purpose consists of three layers - an input layer, a hidden layer and an output layer. The input layer has 960 nodes each with a pixel value of the image being fed to the network. The hidden layer consists of 5 nodes and the output layer, of 2. 
 
 
-Parameters used:
+#Parameters used:
 
 Following are the parameters used for each task:
 
@@ -22,7 +22,7 @@ Following are the parameters used for each task:
 2. Pose Recognizer:
 3. Sunglasses Recognizer:
 
-Dataset:
+#Dataset:
 
 The dataset used for this purpose can be downloaded from this link : http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-8/faceimages/faces_4.tar.Z
 
@@ -35,7 +35,7 @@ Following are the training and testing lists to be used for each task:
 Sunglasses Recognizer: The training file for this task is “straightrnd_train.list” and the testing files are “straightrnd_test1.list” and “straightrnd_test2.list”.
 
 
-Results:
+#Results:
 
 Following are the maximum accuracies achieved for each task:
 
