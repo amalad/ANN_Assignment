@@ -15,7 +15,7 @@ Following is a detailed description of the structure of the network used for eac
 
 #Dataset:
 
-The dataset used for this purpose can be downloaded from this link : http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-8/faceimages/faces_4.tar.Z
+The dataset can be downloaded from this link : http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-8/faceimages/faces_4.tar.Z
 
 The link for the training and testing lists for each task can be found here: http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-8/faceimages/trainset/
 
