@@ -13,15 +13,6 @@ Following is a detailed description of the structure of the network used for eac
 2. Pose Recognizer: The network consists of three layers - an input layer, a hidden layer and an output layer. The input layer has 960 nodes each with a pixel value of the image being fed to the network. The hidden layer consists of 6 nodes and the output layer, of 4. 
 3. Sunglasses Recognizer:  The network used for this purpose consists of three layers - an input layer, a hidden layer and an output layer. The input layer has 960 nodes each with a pixel value of the image being fed to the network. The hidden layer consists of 5 nodes and the output layer, of 2. 
 
-
-#Parameters used:
-
-Following are the parameters used for each task:
-
-1. Face recognizer: 
-2. Pose Recognizer:
-3. Sunglasses Recognizer:
-
 #Dataset:
 
 The dataset used for this purpose can be downloaded from this link : http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-8/faceimages/faces_4.tar.Z
@@ -31,8 +22,8 @@ The link for the training and testing lists for each task can be found here: htt
 Following are the training and testing lists to be used for each task:
 
 1. Face Recognizer: The training file for this task is “straighteven_train.list” and the testing files are “straighteven_test1.list” and “straighteven_test2.list”.
-2. ṭPose Recognizer: The training file for this task is “all_train.list” and the testing files are “all_test1.list” and “all_test2.list”.
-Sunglasses Recognizer: The training file for this task is “straightrnd_train.list” and the testing files are “straightrnd_test1.list” and “straightrnd_test2.list”.
+2. Pose Recognizer: The training file for this task is “all_train.list” and the testing files are “all_test1.list” and “all_test2.list”.
+3. Sunglasses Recognizer: The training file for this task is “straightrnd_train.list” and the testing files are “straightrnd_test1.list” and “straightrnd_test2.list”.
 
 
 #Results:
