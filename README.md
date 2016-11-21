@@ -9,9 +9,9 @@ For each training and testing list, the corresponding image files were read usin
 
 Following is a detailed description of the structure of the network used for each task:
 
-1. Face Recognizer: The network used for this task consists of three layers - an input layer, a hidden layer, and an output layer. The input layer has 960 nodes containing pixel values of the image being fed to the network. Both, the hidden layer and output layer consist of 20 nodes each. 
-2. Pose Recognizer: The network consists of three layers - an input layer, a hidden layer and an output layer. The input layer has 960 nodes each with a pixel value of the image being fed to the network. The hidden layer consists of 6 nodes and the output layer, of 4. 
-3. Sunglasses Recognizer:  The network used for this purpose consists of three layers - an input layer, a hidden layer and an output layer. The input layer has 960 nodes each with a pixel value of the image being fed to the network. The hidden layer consists of 5 nodes and the output layer, of 2. 
+1. Face Recognizer: The network used for this task consists of three layers - an input layer, a hidden layer, and an output layer. The input layer has 960 nodes containing pixel values of the image being fed to the network. Both, the hidden layer and output layer consist of 20 nodes each. The value of the learning rate and the momentum term for this task is 0.3 and the number of epochs required is 500.
+2. Pose Recognizer: The network consists of three layers - an input layer, a hidden layer and an output layer. The input layer has 960 nodes each with a pixel value of the image being fed to the network. The hidden layer consists of 6 nodes and the output layer, of 4. The value of the learning rate and the momentum term for this task is 0.3  and the number of epochs required is 1000.
+3. Sunglasses Recognizer:  The network used for this purpose consists of three layers - an input layer, a hidden layer and an output layer. The input layer has 960 nodes each with a pixel value of the image being fed to the network. The hidden layer consists of 5 nodes and the output layer, of 2. The value of the learning rate and the momentum term for this task is 0.1  and the number of epochs required is 500.
 
 #Dataset:
 
