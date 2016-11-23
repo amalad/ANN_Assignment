@@ -3,7 +3,7 @@ An implementation of artificial neural networks to perform the following tasks: 
 
 #Preprocessing steps:
 
-For each training and testing list, the corresponding image files were read using a pgm parser (for the P5 format) written in C++ and the pixel values of the images were stored in text files (sorted according to the lists). Each line of a text file contains the pixel values of one image, preceded by a ‘1’. For each of the tasks, namely face recognition, pose recognition and sunglasses recognition, output files were generated for the images in the corresponding lists. Each line of the output text files contains the class of the image in the 1-of-n format. The parser can be found in the file named “parser.cpp”
+For each training and testing list, the corresponding image files were read using a pgm parser (for the P5 format) written in C++ and the pixel values of the images were stored in a text files. Each line of a text file contains the pixel values of one image, preceded by a ‘1’. Each line of the output text files contains the class of the image in the 1-of-n format.
 
 #Network Structure and Parameters:
 
@@ -30,7 +30,7 @@ Following are the training and testing lists to be used for each task:
 
 Following are the maximum accuracies achieved for each task:
 
-1. Face Recognizer: 
-2. Pose Recognizer: 
-3. Sunglasses Recognizer: 
+1. Face Recognizer: Maximum training set accuracy - 100%, maximum testing set1 accuracy - 100%, maximum testing set 2 accuracy - 97.5%
+2. Pose Recognizer: Maximum training set accuracy - 100%, maximum testing set1 accuracy - 92.0863%, maximum testing set 2 accuracy - 95.6731%
+3. Sunglasses Recognizer: Maximum training set accuracy - 100%, maximum testing set1 accuracy - 100%, maximum testing set 2 accuracy - 98.0769%
 
